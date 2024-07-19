@@ -16,7 +16,7 @@ import pickle
 
 # In[40]:
 
-pickle_in = open('classifier.pkl', 'rb') 
+pickle_in = open('lr_model.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
 
 # In[41]:
