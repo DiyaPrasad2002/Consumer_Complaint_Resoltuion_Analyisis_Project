@@ -16,7 +16,7 @@ import pickle
 
 # In[40]:
 
-model_path = 'adamodel.sav'
+model_path = 'adaboostmodel.pkl'
 try:
     model = joblib.load(model_path)
     st.success("Model loaded successfully!")
