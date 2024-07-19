@@ -8,7 +8,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sklearn
+import sklearn==1.5.1
 from sklearn.preprocessing import LabelEncoder
 import joblib
 import pickle
