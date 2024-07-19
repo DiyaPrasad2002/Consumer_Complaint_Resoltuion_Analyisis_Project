@@ -16,7 +16,7 @@ import pickle
 
 # In[40]:
 
-model_path = 'adamodel.joblib'
+model_path = 'adamodel.sav'
 try:
     model = joblib.load(model_path)
     st.success("Model loaded successfully!")
