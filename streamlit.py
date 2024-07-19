@@ -23,6 +23,7 @@ try:
        with open(model_path, 'rb') as file:
               model = pickle.load(file)
        st.success("model loaded!")
+       st.write(type(model))
 
 except Exception as e:
        st.error(f"Error Loading Model {e}")
