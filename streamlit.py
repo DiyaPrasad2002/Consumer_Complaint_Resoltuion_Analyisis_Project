@@ -16,14 +16,8 @@ import pickle
 
 # In[40]:
 
-model_path = 'adaboostmodel.pkl'
-try:
-    with open(model_path, 'rb') as file:
-        model = pickle.load(file)
-    st.success("Model loaded successfully!")
-except Exception as e:
-    st.error(f"Error loading model: {e}")
-
+pickle_in = open('classifier.pkl', 'rb') 
+classifier = pickle.load(pickle_in)
 
 # In[41]:
 
@@ -102,7 +96,7 @@ input_array = np.array([[product_enc, company_enc, state_enc,submission_enc, res
 
 
 if st.button("Predict"):
-    prediction = model.predict(input_array)
+    prediction = classifier.predict(input_array)
     st.write(f"Prediction : {prediction[0]}")
 
 
