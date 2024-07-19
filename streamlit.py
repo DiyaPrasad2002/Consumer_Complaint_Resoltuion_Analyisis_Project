@@ -17,7 +17,7 @@ import pickle
 # In[40]:
 
 
-model_path = 'model.pkl'
+model_path = 'adaboostmodel.pkl'
 
 try:
        with open(model_path, 'rb') as file:
