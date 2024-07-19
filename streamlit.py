@@ -16,8 +16,14 @@ import pickle
 
 # In[40]:
 
-pickle_in = open('adaboostmodel.pkl', 'rb') 
-model = pickle.load(pickle_in)
+model_path = 'adaboostmodel.pkl'
+try:
+    with open(model_path, 'rb') as file:
+        model = pickle.load(file)
+    st.success("Model loaded successfully!")
+except Exception as e:
+    st.error(f"Error loading model: {e}")
+
 
 # In[41]:
 
