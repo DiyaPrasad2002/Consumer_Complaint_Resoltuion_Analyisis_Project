@@ -18,8 +18,14 @@ import pickle
 
 
 model_path = 'model.pkl'
-with open(model_path, 'rb') as file:
-       model = pickle.load(file)
+
+try:
+       with open(model_path, 'rb') as file:
+              model = pickle.load(file)
+       st.success("model loaded!")
+
+except Exception as e:
+       st.error(f"Error Loading Model {e}")
 
 
 # In[41]:
