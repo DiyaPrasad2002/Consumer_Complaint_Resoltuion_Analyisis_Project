@@ -11,12 +11,15 @@ import pandas as pd
 import sklearn
 from sklearn.preprocessing import LabelEncoder
 import joblib
+import pickle
 
 
 # In[40]:
 
 
-model = joblib.load("model.pkl")
+model_path = 'model.pkl'
+with open(model_path, 'rb') as file:
+       model = pickle.load(file)
 
 
 # In[41]:
