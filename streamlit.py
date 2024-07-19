@@ -97,7 +97,10 @@ input_array = np.array([[product_enc, company_enc, state_enc,submission_enc, res
 
 if st.button("Predict"):
     prediction = classifier.predict(input_array)
-    st.write(f"Prediction : {prediction[0]}")
+    if prediction[0] == 0:
+           st.success("Yay! The consumer complaint is closed!")
+    else:
+           st.error("Oops! Get back to catering the issue!")
 
 
 # In[ ]:
