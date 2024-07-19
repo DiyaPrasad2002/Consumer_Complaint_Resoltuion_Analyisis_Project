@@ -1,9 +1,29 @@
-# Consumer_Complaint_Resolution_Analysis_Project
-The data consisted of information about companies and their consumer complaints. The project is based on analyzing the data, picking up the appropriate classification model and find out if the consumers ended up satisfied post the company's response to the issue. 
+# Consumer Complaint Resolution Prediction Model
 
-For the same : 
-- Used techniques like data cleaning, EDA and PCA to modify and train data for analysis
+This is a self-made project which involves using a machine learning classification model in order to predict the complaint status of a consumer in various banking firms, involving multitide of financial grievances from loans to debts and credit faults. 
+
+## Project Overview and Dataset
+
+The dataset was picked up from kaggle. You may find it here : https://www.kaggle.com/datasets/kaggle/us-consumer-finance-complaints
+
+The dataset consists of 18 columns and 555957 rows, with information about the company concerned, their products and sub-products, issue and sub-issue and the residential information of the consumer. Each individual consumer is identified by his/her consumer ID. No personal information of the consumer is exploited for the analysis and model building. 
+
+For the prediction task, I have used an AdaBoost Classifier model in order to predict if the consumer ends up satisfied or dissatidfied even after the company has catered to their issue. The problem is thus a 'binary classification task'. 
+
+## Requirements 
+- Python 3.11.0
+- Numpy
+- Pandas
+- Seaborn and Matplotlib
+- Scikit-learn for models and preprocessing
+  
+## Tasks Accomplished
+- Used techniques like data cleaning, EDA and data imputation to prepare data for analysis and model building
 - Used Python libraries like matplotlib and seaborn for data visualization and draw inferences from the data
-- Apply correlation analysis to understand the relationship between the target and the feature variables
-- Test various classification models and figure out the appropriate one based on the accuracy scores and r2 scores
+- Test various classification models and figure out the appropriate one based on the accuracy and precision scores
 - Finally, use AdaBoost Classifier to predict if the consumer ends up disputed or not
+- Using streamlit to deploy the model and make it function
+
+## Model Performance 
+Precision Score = 1.0
+Accuracy Score = 0.7981
