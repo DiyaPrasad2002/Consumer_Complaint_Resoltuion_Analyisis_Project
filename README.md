@@ -25,5 +25,5 @@ For the prediction task, I have used an AdaBoost Classifier model in order to pr
 - Using streamlit to deploy the model and make it function
 
 ## Model Performance 
--Precision Score = 1.0
--Accuracy Score = 0.7981
+- Accuracy Score = 0.7981
+- Precision Score = 1.0
