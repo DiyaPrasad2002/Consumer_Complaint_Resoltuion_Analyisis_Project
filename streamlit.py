@@ -17,7 +17,7 @@ import pickle
 # In[40]:
 
 
-model_path = 'model.pkl'
+model_path = 'model (1).pkl'
 
 try:
        with open(model_path, 'rb') as file:
