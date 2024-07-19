@@ -1,6 +1,6 @@
-numpy
-pandas
-scikit-learn==1.5.1
+numpy>=1.9.2
+pandas>=0.19
+scikit-learn==0.22.1
 streamlit
 datetime
 joblib
