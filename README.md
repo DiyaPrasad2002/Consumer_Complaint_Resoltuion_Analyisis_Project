@@ -27,3 +27,6 @@ For the prediction task, I have used an AdaBoost Classifier model in order to pr
 ## Model Performance 
 - Accuracy Score = 0.7981
 - Precision Score = 1.0
+
+## Access 
+You may access the model from : https://consumer-app-f0rr.onrender.com
