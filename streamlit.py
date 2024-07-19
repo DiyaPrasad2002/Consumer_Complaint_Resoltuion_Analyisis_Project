@@ -3,7 +3,7 @@
 
 # In[39]:
 
-!pip install scikit-learn
+pip install scikit-learn
 
 import streamlit as st
 import numpy as np
