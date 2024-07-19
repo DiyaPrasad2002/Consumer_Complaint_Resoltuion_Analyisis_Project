@@ -1,4 +1,4 @@
-# Consumer_Complaint_Resoltuion_Analyisis_Project
+# Consumer_Complaint_Resolution_Analysis_Project
 The data consisted of information about companies and their consumer complaints. The project is based on analyzing the data, picking up the appropriate classification model and find out if the consumers ended up satisfied post the company's response to the issue. 
 
 For the same : 
