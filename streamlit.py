@@ -16,10 +16,8 @@ import pickle
 
 # In[40]:
 
-
-model_path = 'adaboostmodel.pkl'
-with open(model_path, 'rb') as file:
-              model = pickle.load(file)
+pickle_in = open('adaboostmodel.pkl', 'rb') 
+model = pickle.load(pickle_in)
 
 # In[41]:
 
