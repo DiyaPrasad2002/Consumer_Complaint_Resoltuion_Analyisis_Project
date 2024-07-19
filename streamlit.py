@@ -3,12 +3,13 @@
 
 # In[39]:
 
+!pip install scikit-learn
 
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sklearn
-from sklearn.preprocessing import LabelEncoder
+import scikit-learn as sc
+from sc.preprocessing import LabelEncoder
 import joblib
 
 
